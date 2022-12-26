@@ -89,7 +89,7 @@ header{
 .balloon-container__message {
     font-size:4vh;
     background-color: #CDD6DD;
-    height: 6vh;
+    height: fit-content;
     color: #F74236;
     padding: 0.5rem;
 }
