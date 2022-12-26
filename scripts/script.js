@@ -19,12 +19,12 @@ function setSize(newSize){
     size=newSize;
     balloon.style.fontSize = size + 'px';
 }
-setSize(20)
+setSize(50)
 
 button.addEventListener("click", resizeBallon)
 
 function resizeBallon(){
-    if (size > 120) {
+    if (size > 150) {
         message.textContent = "BOOM!!! Now deal with the neighbours." //no funciona
         balloon.textContent = "💥"
         button.removeEventListener("click", resizeBallon);
